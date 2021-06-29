@@ -53,8 +53,37 @@ export default function StudentHome() {
                 <button className={styles.book_btn}>Book</button>
               </td>
             </tr>
+            <tr>
+              <td>4</td>
+              <td>Gurpreet Singh</td>
+              <td>789632</td>
+              <td>52-305C</td>
+              <td>09:00-10:30</td>
+              <td>Networking</td>
+              <td>09:00-17:00</td>
+              <td>
+                <button className={styles.book_btn}>Book</button>
+              </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Gurpreet Singh</td>
+              <td>789632</td>
+              <td>52-305C</td>
+              <td>09:00-10:30</td>
+              <td>Networking</td>
+              <td>09:00-17:00</td>
+              <td>
+                <button className={styles.book_btn}>Book</button>
+              </td>
+            </tr>
           </tbody>
         </table>
+      </div>
+
+      <hr></hr>
+      <div className={styles.my_bookings}>
+        <div className={styles.header}>My Bookings</div>
       </div>
     </div>
   );

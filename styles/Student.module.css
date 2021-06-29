@@ -1,3 +1,10 @@
+.header {
+  background-color: #0083b0;
+  padding: 10px 50px;
+  color: white;
+  font-size: 1.6em;
+}
+
 .faculty_table {
   display: flex;
   justify-content: center;
@@ -29,7 +36,7 @@
 }
 
 .faculty_table table td {
-  padding: 5px 10px;
+  padding: 10px 20px;
 }
 
 .faculty_table table td {
